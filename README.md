@@ -30,6 +30,8 @@ make sure your credential env variable is set (above)
 
     python3 main.py es
 or whatever language (`es`, `it`, etc)
+
 ## notes
-- Your translated files will be in *locales/<language_specified>*
+- Your translated files will be in *locales/<language_specified>/*
 - If there is already a translation for that string (an already existing matching language, file, and key) then that will be used, and no API call will be made. Delete the translated files from the target directory if you don't want this.
+

@@ -18,7 +18,7 @@ install python 3 `brew install python3`
 
 ## run app
 ### translation files
-add whatever *TRANSLATION.json* files to the *locales/en* directyory you want to translate
+add whatever *TRANSLATION.json* files to the *locales/en* directory you want to translate
 
 ### create translations
 make sure your credential env variable is set (above)

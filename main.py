@@ -26,16 +26,18 @@ def translate_to_language(target_language):
             # get translations
             translated_dictionary = translate_dictionary(english_dictionary, target_language, filename)
 
+            # write translated dictionary to json file for target language
             with open(target_translation_file_location, "w+") as target_translation_file:
                 json.dump(translated_dictionary, target_translation_file, indent=2)
 
 
 def translate_dictionary(english_dictionary, target_language, filename):
 
+    # create translated dict
     translation_count = translate(english_dictionary, target_language)
-    translated_dictionary = english_dictionary
-
     print(f"{translation_count} translations for {target_language} for {filename}")
+    # the english dict was modified, so use it as the translated dict
+    translated_dictionary = english_dictionary
 
     return translated_dictionary
 

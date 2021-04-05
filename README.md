@@ -1,5 +1,5 @@
 # json-language-file-translator
-translates i18n json files to specified language
+translates i18n json files to specified language using the Google Cloud Translate API (Basic).
 
 ## system setup
 install python 3 `brew install python3`

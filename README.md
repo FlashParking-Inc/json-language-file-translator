@@ -16,10 +16,11 @@ install python 3 `brew install python3`
 - setup google authentication for app https://cloud.google.com/translate/docs/setup#creating_service_accounts_and_keys
 - after you download key file: `export GOOGLE_APPLICATION_CREDENTIALS="/path/to/google-credentials.json"`
 
+## run app
 ### translation files
 add whatever *TRANSLATION.json* files to the *locales/en* directyory you want to translate
 
-## run app
+### create translations
 make sure your credential env variable is set (above)
 
     python3 main.py es

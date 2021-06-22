@@ -24,7 +24,7 @@ install python 3 `brew install python3`
 
 ## run app
 ### translation files
-add whatever *TRANSLATION.json* files to the *locales/en* directory you want to translate, as well as *locales/<target> files/translations you don't want overwritten (it checks if translations already exist).
+add whatever *TRANSLATION.json* files to the *locales/en* directory you want to translate, as well as *locales/target* files/translations you don't want overwritten (it checks if translations already exist).
 
 ### create translations
 make sure your credential env variable is set (above)

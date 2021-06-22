@@ -9,7 +9,8 @@ translates i18n json files to specified language using the Google Cloud Translat
 ## system setup
 install python 3 `brew install python3`
 
-## app setup
+## app setup (in app directory)
+
 ### setup a virtual environment:
     python3 -m venv venv
     source venv/bin/activate
@@ -23,7 +24,7 @@ install python 3 `brew install python3`
 
 ## run app
 ### translation files
-add whatever *TRANSLATION.json* files to the *locales/en* directory you want to translate
+add whatever *TRANSLATION.json* files to the *locales/en* directory you want to translate, as well as *locales/<target> files/translations you don't want overwritten (it checks if translations already exist).
 
 ### create translations
 make sure your credential env variable is set (above)
